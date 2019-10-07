@@ -1,0 +1,11 @@
+React memo -> It can be used to render component only when 
+its props got changed rather than for evry parent component rendering
+
+React Fragment -> Instaed of a div at top for a component, we use this 
+React Lazy, suspend -> In order not to render that component on app initialization, rather render it on some click
+
+React Hooks->
+
+UseState -> Returns two array values -> 1)Current State 2)Function which can update state
+
+UseEffect -> Acts as componentDidMount if second argument is an empty array[]
