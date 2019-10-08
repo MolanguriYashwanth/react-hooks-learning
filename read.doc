@@ -9,3 +9,11 @@ React Hooks->
 UseState -> Returns two array values -> 1)Current State 2)Function which can update state
 
 UseEffect -> Acts as componentDidMount if second argument is an empty array[]
+
+UseCallBack -> Not to render a function on multiple render cycles and render it based on its dependencies changes
+
+UseReducer -> Instead of UseState we can use this to dispatch actions
+
+UseMemo -> if you dont want to render a value(including a component) for every render cycle we can useMemo
+
+useContext -> Inorder to use global data along with React.Context in sub components we can use this hook
